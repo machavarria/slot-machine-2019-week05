@@ -1,4 +1,4 @@
-const img_path = '../Slot-Machine/img/';
+const img_path = '../slot-machine-2019-week05/img/';
 let credits = 300;
 
 document.getElementById('spin').addEventListener('click', spin);
@@ -9,7 +9,7 @@ function spin(){
     return;
   }
 
-credits -= 25;
+credits -= 50;
 
   let slot1 = Math.floor(Math.random() * 5) + 1;
   let slot2 = Math.floor(Math.random() * 5) + 1;
@@ -25,8 +25,8 @@ credits -= 25;
     result.textContent = "You Matched All Three! JACKPOT!!! +75 credits";
     credits += 75;
   } else if (slot1 === slot2 || slot2 === slot3 || slot1 === slot3){
-    result.textContent = "You almost got all three! +25 credits";
-    credits += 25;
+    result.textContent = "You almost got all three! +30 credits";
+    credits += 30;
   } else {
     result.textContent = "Yikes! No matches... No credits back";
   }
