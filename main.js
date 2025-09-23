@@ -3,11 +3,13 @@ let credits = 300;
 
 document.getElementById('spin').addEventListener('click', spin);
 
+//I got this code from AI//
 function spin(){
   if (credits <= 0){
     document.getElementById("result").textContent = "Game Over! Looks like you're out of credits, you lose!";
     return;
   }
+//I understood how to get the randomization but wasn't sure how to get the credits//
 
 credits -= 50;
 
@@ -23,7 +25,7 @@ credits -= 50;
 
   if (slot1 === slot2 && slot2 === slot3){
     result.textContent = "You Matched All Three! JACKPOT!!! +75 credits";
-    credits += 75;
+    credits += 75; //This is where I also wasn't sure for the credits parts//
   } else if (slot1 === slot2 || slot2 === slot3 || slot1 === slot3){
     result.textContent = "You almost got all three! +30 credits";
     credits += 30;
