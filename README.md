@@ -2,9 +2,9 @@
 
 ### Step into Luigi's Casino and see how much you can win!
 
-![](img/casino.png)
-
 Spin the slot machine. You start off with 300 coins. If you spin two of you are rewarded 30 coins, if you spin three of a kind you are rewarded 75 coins, and if you spin no matching then you get no reward.
+
+![](img/casino.png)
 
 ### Tech Used:
 
