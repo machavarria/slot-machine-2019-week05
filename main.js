@@ -3,7 +3,7 @@ let credits = 300;
 
 document.getElementById('spin').addEventListener('click', spin);
 
-//I got this code from AI//
+//I used google gemini to help get this code//
 function spin(){
   if (credits <= 0){
     document.getElementById("result").textContent = "Game Over! Looks like you're out of credits, you lose!";
@@ -24,13 +24,13 @@ credits -= 50;
   let result = document.getElementById("result");
 
   if (slot1 === slot2 && slot2 === slot3){
-    result.textContent = "You Matched All Three! JACKPOT!!! +75 credits";
-    credits += 75; //This is where I also wasn't sure for the credits parts//
+    result.textContent = "You Matched All Three! JACKPOT!!! +75 coins";
+    credits += 75; //This is where I also wasn't sure for the credits parts. Used google gemini to help with that//
   } else if (slot1 === slot2 || slot2 === slot3 || slot1 === slot3){
-    result.textContent = "You almost got all three! +30 credits";
+    result.textContent = "You almost got all three! +30 coins";
     credits += 30;
   } else {
-    result.textContent = "Yikes! No matches... No credits back";
+    result.textContent = "Yikes! No matches... No coins back";
   }
 
 

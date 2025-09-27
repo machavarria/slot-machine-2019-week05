@@ -1,24 +1,26 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+# 🎰 Slot Machine
 
-### Goal: Build a Simple Slot Machine
+### Step into Luigi's Casino and see how much you can win!
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+![](img/casino.png)
 
-### How to submit your code for review:
+Spin the slot machine. You start off with 300 coins. If you spin two of you are rewarded 30 coins, if you spin three of a kind you are rewarded 75 coins, and if you spin no matching then you get no reward.
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+### Tech Used:
 
-Example:
+- HTML
+- CSS
+- Javascript
+
+### Lessons Learned
+
+  - Using Math script practice to help get the radomization to work.
+  - The use of conditionals to help make the winning and losing functions work.
+  - The use of DOM elements to tell people how many coins they got when they won or when they lost.
+
+### Review:
 ```
 I completed the challenge: 5
 I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
+Would love feedback. Maybe a way I can make a spin function for the slot machine.
 ```
