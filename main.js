@@ -1,4 +1,4 @@
-const img_path = '../slot-machine-2019-week05/img/';
+const img_path = 'img/';
 let credits = 300;
 
 document.getElementById('spin').addEventListener('click', spin);

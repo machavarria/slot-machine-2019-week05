@@ -10,7 +10,7 @@
   /*******************************************/
   
   body{
-    background-image: url(../slot-machine-2019-week05/img/Luigi.png);
+    background-image: url(img/Luigi.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     display: flex;
